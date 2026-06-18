@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            padding-bottom: 60px;
+        }
+
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #bdc3c7;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .skills-list {
+            list-style: none;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+
+        .skills-list li {
+            background: #3498db;
+            color: white;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+            border: none;
+            font-size: 1rem;
+        }
+
+        .btn:hover {
+            background: #c0392b;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #2c3e50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>আমার প্রথম প্রজেক্ট</h1>
+        <p>ওয়েব ডেভেলপার এবং প্রজেক্ট ক্রিয়েটর</p>
+    </header>
+
+    <div class="container">
+        <h2>আমার সম্পর্কে</h2>
+        <p>হ্যালো! আমি একজন ওয়েব ডেভেলপার। আমি নতুন নতুন প্রজেক্ট তৈরি করতে ভালোবাসি। এটি আমার তৈরি করা প্রথম লাইভ ওয়েবসাইট প্রজেক্ট।</p>
+
+        <h2>আমার স্কিলসমূহ</h2>
+        <ul class="skills-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+        </ul>
+
+        <h2>যোগাযোগ করুন</h2>
+        <p>আমার সাথে যেকোনো প্রজেক্টের ব্যাপারে কথা বলতে নিচের বাটনে ক্লিক করুন।</p>
+        <button class="btn" onclick="contactMe()">ক্লিক করুন</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 | আমার প্রথম ওয়েবসাইট প্রজেক্ট</p>
+    </footer>
+
+    <script>
+        function contactMe() {
+            alert('আমার ওয়েবসাইটে আসার জন্য আপনাকে ধন্যবাদ! খুব শীঘ্রই যোগাযোগ ফিচার চালু হবে।');
+        }
+    </script>
+
+</body>
+</html>
